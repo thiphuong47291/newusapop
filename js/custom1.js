@@ -1,0 +1,1 @@
+$((function(){var t=0,a=setInterval((function(){t+=10,$("#dynamic").css("width",t+"%").attr("aria-valuenow",t).text(t+"% Complete"),t>=100&&clearInterval(a)}),100)}));
